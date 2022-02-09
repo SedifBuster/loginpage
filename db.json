@@ -1,0 +1,43 @@
+{
+  "contacts": [
+    {
+      "name": "Artem",
+      "mail": "artem@mail.ru",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "name": "Dmitry",
+      "mail": "dmitry@mail.ru"
+    },
+    {
+      "name": "Nikolai",
+      "mail": "nikolai@mail.ru",
+      "id": 3
+    },
+    {
+      "id": 4,
+      "name": "Katya",
+      "mail": "katya@mail.ru"
+    },
+    {
+      "id": 5,
+      "name": "Lilia",
+      "mail": "lilia@mail.ru"
+    },
+    {
+      "id": 6,
+      "name": "Arsenyi",
+      "mail": "arsenyi@mail.ru"
+    },
+    {
+      "id": 7,
+      "name": "Kolya",
+      "mail": "Kolya@mail.ru"
+    }
+  ],
+  "profile": {
+    "login": "user",
+    "password": "12345"
+  }
+}

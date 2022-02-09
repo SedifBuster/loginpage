@@ -1,0 +1,136 @@
+body{
+  background-color: rgb(173, 170, 170);
+}
+
+.linkWrapper {
+  display: flex;
+  width: 130px;
+  justify-content: space-between;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+.link {
+  color: whitesmoke;
+  text-decoration: none;
+  font-size: 19px;
+}
+
+.link:hover {
+  color: aqua;
+}
+
+.loginWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.loginInput {
+  height: 35px;
+  width: 300px;
+  margin: 5px 5px 5px 5px;
+  border: 3px solid #87a0ab;
+  border-radius: 18px;
+  font-size: 16px;
+  padding-left: 8px;
+}
+
+.loginButton {
+  height: 40px;
+  width: 310px;
+  font-size: 18px;
+  margin: 5px 5px 5px 5px;
+  border: 2px solid #87a0ab;
+  border-radius: 10px;
+  padding: 0;
+  background-color: rgba(230, 240, 245, 0.2);
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+.loginButton:hover {
+  transition: 1s;
+  color: aqua;
+  background-color: rgba(77, 79, 79,0.5);
+}
+
+.loginError {
+  color: darkred;
+  font-size: 18px;
+  margin: 0;
+  padding-left: 35px;
+}
+
+.contactsWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.contactSearch {
+  width: 405px;
+  height: 25px;
+  padding-left: 5px;
+  font-size: 14px;
+  margin-bottom: 5px;
+  margin-top: 10px;
+  border: 3px solid #87a0ab;
+}
+
+.contactAddForm {
+  display: flex;
+  justify-content: space-between;
+  width: 420px;
+  margin-bottom: 20px;
+}
+
+.contactAddInput {
+  height: 25px;
+  padding-left: 5px;
+  font-size: 14px;
+  border: 3px solid #87a0ab;
+}
+
+.contactAddButton {
+  border: 2px solid #87a0ab;
+  background-color: rgba(230, 240, 245, 0.2);
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+.contactAddButton:hover {
+  transition: 1s;
+  color: aqua;
+  background-color: rgba(77, 79, 79,0.5);
+}
+
+.contactItemWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 420px;
+    height: 25px;
+    margin-bottom: 10px;
+}
+
+.contactItemDiv {
+  width: 170px;
+    font-size: 17px;
+}
+
+.contactItemId {
+  padding-right: 5px;
+    font-size: 17px;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
